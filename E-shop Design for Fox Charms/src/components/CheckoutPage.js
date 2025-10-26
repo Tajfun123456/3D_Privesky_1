@@ -15,12 +15,12 @@ interface CheckoutPageProps {
 
 const PRODUCT_PRICE = 59;
 
-// KONEČNÁ OPRAVA: Používá cesty ke složce public a koncovku .png (dle Vaší struktury souborů)
+// KONEČNÁ OPRAVA: Odstraněna diakritika u Lišky (Liska) pro Vercel kompatibilitu
 const productData = {
   fox: {
     name: 'Přívěsek Liška',
-    // Cesta do složky /public/Liška_v_lese_1.png
-    image: '/Liška_v_lese_1.png',  
+    // Cesta do složky /public/Liska_v_lese_1.png
+    image: '/Liska_v_lese_1.png',  
   },
   dog: {
     name: 'Přívěsek Pes',
